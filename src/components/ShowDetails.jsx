@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import DOMPurify from 'dompurify';
 
-import Loader from './loader';
+import Loader from './Loader';
 import { IoTicketOutline } from "react-icons/io5";
 
 const ShowDetails = () => {
