@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Loader from "./loader";
+import Loader from "./Loader";
 import { Link } from "react-router-dom";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
