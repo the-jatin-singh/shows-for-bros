@@ -26,7 +26,7 @@ It is a React application that allows users to explore and search for TV shows u
 - Click on a show to view detailed information.
 - Book tickets for your favorite shows by clicking the "Book a Ticket" button.
 
-##Dependencies
+## Dependencies
 - Vite
 - React Router
 - DOMPurify (for sanitizing HTML content)
