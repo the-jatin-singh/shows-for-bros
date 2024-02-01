@@ -42,7 +42,7 @@ const ShowList = () => {
       {shows ? (
         <div className="mt-10 flex flex-wrap gap-10 justify-center pb-10">
           {shows.map((show) => (
-            <div key={show.show.id} className="shadow-lg w-[350px] sm:w-[300px] md:w-[500px] border-2 rounded-xl p-4">
+            <div key={show.show.id} className="shadow-lg w-[350px] sm:w-[500px] border-2 rounded-xl p-4">
               <div className="flex gap-4 ">
                 <div className="flex-1 ">
                   {show.show.image && show.show.image.medium ? (
