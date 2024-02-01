@@ -33,7 +33,7 @@ const ShowList = () => {
       {/* search bar */}
       <div className="w-full text-center"><input
         onChange={handleSearch}
-        className="mx-4 text-lg outline-none bg-gray-200 px-4 py-4 w-[90vw] sm:w-[450px] rounded-3xl"
+        className="text-lg outline-none bg-gray-200 px-4 py-4 w-[90vw] sm:w-[450px] rounded-3xl"
         placeholder="Search your show here"
         type="text"
       /></div>
