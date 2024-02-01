@@ -10,9 +10,9 @@ const App = () => {
   return (
     <div>
       {/* Navbar */}
-      <nav className="fixed h-[80px] z-10 w-full flex items-center justify-between px-8 bg-gray-800">
-        <Link to='/' className="cursor-pointer text-xl text-gray-200 uppercase font-semibold">Shows-For-Bros</Link>
-        <Link to='/booked' className="uppercase text-gray-200 ">Booked Shows</Link>
+      <nav className="fixed h-[80px] z-10 w-full flex items-center justify-between px-2 md:px-8 bg-gray-800">
+        <Link to='/' className="cursor-pointer text-md sm:text-xl text-gray-200 uppercase font-semibold">Shows-For-Bros</Link>
+        <Link to='/booked' className="uppercase text-sm sm:text-xl text-gray-200 ">Booked Shows</Link>
       </nav>
 
 
